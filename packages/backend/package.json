@@ -38,7 +38,7 @@
     "@backstage/plugin-permission-common": "^0.9.1",
     "@backstage/plugin-permission-node": "^0.10.2",
     "@backstage/plugin-proxy-backend": "^0.6.4",
-    "@backstage/plugin-scaffolder-backend": "^2.1.0",
+    "@backstage/plugin-scaffolder-backend": "^2.1.1",
     "@backstage/plugin-scaffolder-backend-module-confluence-to-markdown": "^0.3.11",
     "@backstage/plugin-scaffolder-backend-module-cookiecutter": "^0.3.13",
     "@backstage/plugin-scaffolder-backend-module-github": "^0.8.1",
