@@ -32856,7 +32856,6 @@ __metadata:
     "@playwright/test": "npm:^1.32.3"
     axios: "npm:^1.11.0"
     cheerio: "npm:^1.1.2"
-    dompurify: "npm:^3.2.6"
     dotenv: "npm:^17.2.1"
     node-gyp: "npm:^10.0.0"
     prettier: "npm:^2.3.2"
