@@ -1,0 +1,140 @@
+{
+    "pr_counts": [
+        {
+            "Review Type": "Manual",
+            "2025-05-25": 0,
+            "2025-06-01": 0,
+            "2025-06-08": 0,
+            "2025-06-15": 0,
+            "2025-06-22": 0,
+            "2025-06-29": 0,
+            "2025-07-06": 0,
+            "2025-07-13": 0,
+            "2025-07-20": 10,
+            "2025-07-27": 54,
+            "2025-08-03": 1,
+            "2025-08-10": 3,
+            "2025-08-17": 0,
+            "2025-08-24": 0
+        },
+        {
+            "Review Type": "Copilot",
+            "2025-05-25": 0,
+            "2025-06-01": 0,
+            "2025-06-08": 0,
+            "2025-06-15": 0,
+            "2025-06-22": 0,
+            "2025-06-29": 0,
+            "2025-07-06": 0,
+            "2025-07-13": 0,
+            "2025-07-20": 50,
+            "2025-07-27": 67,
+            "2025-08-03": 1,
+            "2025-08-10": 1,
+            "2025-08-17": 0,
+            "2025-08-24": 0
+        }
+    ],
+    "time_metrics": [
+        {
+            "Month": "2025-03",
+            "Avg Manual Review Response Time (min)": 0.0,
+            "Avg Copilot Review Response Time (min)": 0.0,
+            "Avg Manual Wait Time to First Review (min)": 0.0,
+            "Avg Copilot Wait Time to First Review (min)": 0.0,
+            "Avg Manual Time to Approve (min)": 0,
+            "Avg Copilot Time to Approve (min)": 0,
+            "Manual Time to Merge (min)": 0.0,
+            "Copilot Time to Merge (min)": 0.0
+        },
+        {
+            "Month": "2025-04",
+            "Avg Manual Review Response Time (min)": 0.0,
+            "Avg Copilot Review Response Time (min)": 0.0,
+            "Avg Manual Wait Time to First Review (min)": 0.0,
+            "Avg Copilot Wait Time to First Review (min)": 0.0,
+            "Avg Manual Time to Approve (min)": 0,
+            "Avg Copilot Time to Approve (min)": 0,
+            "Manual Time to Merge (min)": 0.0,
+            "Copilot Time to Merge (min)": 0.0
+        },
+        {
+            "Month": "2025-05",
+            "Avg Manual Review Response Time (min)": 0.0,
+            "Avg Copilot Review Response Time (min)": 0.0,
+            "Avg Manual Wait Time to First Review (min)": 0.0,
+            "Avg Copilot Wait Time to First Review (min)": 0.0,
+            "Avg Manual Time to Approve (min)": 0,
+            "Avg Copilot Time to Approve (min)": 0,
+            "Manual Time to Merge (min)": 0.0,
+            "Copilot Time to Merge (min)": 0.0
+        },
+        {
+            "Month": "2025-06",
+            "Avg Manual Review Response Time (min)": 0.0,
+            "Avg Copilot Review Response Time (min)": 0.0,
+            "Avg Manual Wait Time to First Review (min)": 0.0,
+            "Avg Copilot Wait Time to First Review (min)": 0.0,
+            "Avg Manual Time to Approve (min)": 0,
+            "Avg Copilot Time to Approve (min)": 0,
+            "Manual Time to Merge (min)": 0.0,
+            "Copilot Time to Merge (min)": 0.0
+        },
+        {
+            "Month": "2025-07",
+            "Avg Manual Review Response Time (min)": 2.45,
+            "Avg Copilot Review Response Time (min)": 1.30,
+            "Avg Manual Wait Time to First Review (min)": 218.88,
+            "Avg Copilot Wait Time to First Review (min)": 0.39,
+            "Avg Manual Time to Approve (min)": 0,
+            "Avg Copilot Time to Approve (min)": 0,
+            "Manual Time to Merge (min)": 218.88,
+            "Copilot Time to Merge (min)": 15.39
+        },
+        {
+            "Month": "2025-08",
+            "Avg Manual Review Response Time (min)": 0.90,
+            "Avg Copilot Review Response Time (min)": 0.35,
+            "Avg Manual Wait Time to First Review (min)": 18.88,
+            "Avg Copilot Wait Time to First Review (min)": 0.39,
+            "Avg Manual Time to Approve (min)": 0,
+            "Avg Copilot Time to Approve (min)": 0,
+            "Manual Time to Merge (min)": 18.88,
+            "Copilot Time to Merge (min)": 10.78
+        }
+    ],
+    "comment_categories": [
+        {
+            "Week Ending": "2025-07-20",
+            "Indentation": 4,
+            "Variable Naming": 1,
+            "Syntax Error": 0,
+            "Logic": 1,
+            "Best Practices": 2
+        },
+        {
+            "Week Ending": "2025-07-27",
+            "Indentation": 8,
+            "Variable Naming": 4,
+            "Syntax Error":1,
+            "Logic": 2,
+            "Best Practices": 0
+        },
+        {
+            "Week Ending": "2025-08-03",
+            "Indentation": 0,
+            "Variable Naming": 1,
+            "Syntax Error": 1,
+            "Logic": 0,
+            "Best Practices": 2
+        },
+        {
+            "Week Ending": "2025-08-10",
+            "Indentation": 0,
+            "Variable Naming": 1,
+            "Syntax Error": 0,
+            "Logic": 0,
+            "Best Practices": 0
+        }
+    ]
+}

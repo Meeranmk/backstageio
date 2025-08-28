@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@axis-backstage/plugin-jira-dashboard-backend": "^4.5.1",
+    "@backstage-community/plugin-copilot-backend": "^0.11.0",
     "@backstage-community/plugin-search-backend-module-confluence-collator": "^0.11.0",
     "@backstage-community/plugin-sonarqube-backend": "^0.11.0",
     "@backstage-community/plugin-tech-insights-backend": "^2.4.0",

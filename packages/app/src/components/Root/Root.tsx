@@ -29,7 +29,8 @@ import SearchIcon from '@material-ui/icons/Search';
 import { MyGroupsSidebarItem } from '@backstage/plugin-org';
 import GroupIcon from '@material-ui/icons/People';
 import Score from '@material-ui/icons/Score';
-
+import { CopilotSidebar } from '@backstage-community/plugin-copilot';
+import BarChartIcon from '@material-ui/icons/BarChart';
 
 const useSidebarLogoStyles = makeStyles({
   root: {
@@ -84,10 +85,12 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
           {/* <SidebarItem icon={Score} to="http://localhost:7007/api/leaderboard/entity-scores" text="Leaderboard" /> */}
          <SidebarItem icon={Score} to="scoreboard" text="Leaderboard" />
          <SidebarItem icon={DashboardIcon} to="version-scanner" text="Version Scanner" />
+         <SidebarItem icon={BarChartIcon} to="/pr-stats" text="PR Insights" /> 
          {/* <SidebarItem icon={Score} to="/confluence" text="Confluence Wiki" /> */}
         {/* End global nav */}
         <SidebarDivider />
         <SidebarScrollWrapper>
+           {/* <CopilotSidebar /> */}
           {/* Items in this group will be scrollable if they run out of space */}
         </SidebarScrollWrapper>
       </SidebarGroup>

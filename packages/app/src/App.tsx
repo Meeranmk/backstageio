@@ -38,7 +38,8 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { ScoreboardPage } from './plugins/scoreboard/plugin';
 import { ConfluencePage } from './components/ConfluencePage/ConfluencePage';
-
+import { CopilotIndexPage } from '@backstage-community/plugin-copilot';
+import { PRInsightsPage } from './plugins/pr-stats/PRInsightsPage';
 
 
 const app = createApp({
@@ -114,6 +115,8 @@ const routes = (
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
     <Route path="/scoreboard" element={<ScoreboardPage />} />
     <Route path="/version-scanner" element={<CodeScannerPage />} />
+    <Route path="/copilot" element={<CopilotIndexPage />} />;
+    <Route path="/pr-stats" element={<PRInsightsPage />} /> 
     {/* <Route path="/confluence" element={<ConfluencePage />} /> */}
   </FlatRoutes>
 );

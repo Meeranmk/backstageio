@@ -27,9 +27,9 @@ export interface RouterOptions {
 }
 
 export class SonarCloudScoreboardService {
-  private readonly baseUrl: string = 'https://sonarcloud.io';
-  private readonly apiKey: string = '8a554ec0b14ea126914b7d532a830c780b4bb542'; // move to config or secrets in production
-  private readonly authType: string = 'Bearer';
+  private readonly baseUrl: string ;
+  private readonly apiKey: string ; // move to config or secrets in production
+  private readonly authType: string ;
 
   // NEW: weights for weighted average
   private readonly weights = {
@@ -40,7 +40,11 @@ export class SonarCloudScoreboardService {
     duplications: 0.15,
   };
 
-  constructor(private config: Config) {}
+  constructor(private config: Config) {
+    this.baseUrl = config.getString('sonarcloud.baseUrl');
+    this.apiKey = config.getString('sonarcloud.apiKey');
+    this.authType = config.getString('sonarcloud.authType');
+  }
 
   async computeScores(entities: Entity[]): Promise<EntityScore[]> {
     try {

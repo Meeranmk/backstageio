@@ -16,6 +16,7 @@ import { githubAuthenticator } from '@backstage/plugin-auth-backend-module-githu
 import { stringifyEntityRef } from '@backstage/catalog-model';
 import { versionScannerPlugin } from './plugins/versionScanner';
 // import sonarqubePlugin from '@backstage-community/plugin-sonarqube-backend';
+import 'dotenv/config';
 
 const backend = createBackend();
 
@@ -111,4 +112,5 @@ backend.add(import('./plugins/scoreboard'));
 backend.add(import('./plugins/confluence'));
 backend.add(versionScannerPlugin);
  backend.add(import('@backstage-community/plugin-search-backend-module-confluence-collator'));
+ backend.add(import('@backstage-community/plugin-copilot-backend'));
 backend.start();
